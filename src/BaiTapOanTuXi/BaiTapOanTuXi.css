@@ -1,0 +1,57 @@
+.gameOanTuXi{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/covidbg.jpg');
+    background-size: 100%;
+}
+.speech-bubble {
+	position: relative;
+	background: #60e9f6;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #60e9f6;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.theThink{
+    border: 5px solid #60e9f6;
+    width: 250px;
+    height:200px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.bimbim button{
+	background-color: rgb(241, 224, 123);
+	border-radius: 10px;
+	border: none;
+
+}
+
+.bimbim button:focus{
+	outline: none;
+}
+
+.bimbim1{
+	font-size: 6rem;
+	font-weight: 700;
+	color: #d8ff00;
+}
+
+.bimbim2{
+	color: #ff158c;
+	font-weight: 700;
+}
